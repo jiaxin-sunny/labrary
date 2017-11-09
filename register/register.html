@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>图书馆用户注册</title>
+    <link href="reset_sign.css" rel="stylesheet" type="text/css">
+    <link href="register.css" rel="stylesheet" type="text/css">
+    <!--先引入后使用-->
+    <script src="../js/jquery.js"></script>
+    <script src="register-jquery.js"></script>
+</head>
+<body>
+    <div id="register-content">
+        <div class="content">
+            <div class="title">用户名：</div>
+            <input type="text" name="name">
+        </div>
+        <div class="content">
+            <div class="title">密码：</div>
+            <input type="text" name="password">
+        </div>
+        <div class="content">
+            <div class="title">再次输入密码：</div>
+            <input type="text" name="re-password">
+        </div>
+        <div class="content">
+            <div class="title">邮箱：</div>
+            <input type="text" name="email">
+        </div>
+        <div class="content" id="agree">
+            <input type="checkbox" name="tongyi">
+            <p>同意以下条款</p>
+        </div>
+        <div id="submit">
+            <input type="button" value="注册">
+            <input type="button" value="返回" id="return">
+        </div>
+    </div>
+</body>
+</html>

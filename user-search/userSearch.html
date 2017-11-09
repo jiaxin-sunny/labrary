@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>用户查询界面</title>
+    <link href="../reset_sign.css" rel="stylesheet" type="text/css">
+    <link href="userSearch.css" rel="stylesheet" type="text/css">
+    <!--先引入后使用-->
+    <script src="../js/jquery.js"></script>
+    <script src="../jquery-table.js"></script>
+    <script src="userSearch.js"></script>
+</head>
+<body>
+    <div id="content">
+        <div id="title">
+            <img src="#" alt="Logo">
+            <div id="user-name">用户名</div>
+            <input type="button" value="退出" id="logoOut">
+        </div>
+        <div id="search-content">
+            <div id="search-nav">查询</div>
+            <div id="search-main">
+                <div id="search-condition">
+                    <div class="book">
+                        <div class="e-book">书名:</div>
+                        <input type="text" value="huahua" id="text">
+                    </div>
+                    <div class="book">
+                        <div class="e-book">作者:</div>
+                        <input type="text" value="zhangjx" id="author">
+                    </div>
+                    <div class="book">
+                        <div class="e-book">关键字:</div>
+                        <input type="text" value="1" id="key">
+                    </div>
+                    <div class="book">
+                        <div class="e-book">类别:</div>
+                        <input type="text" value="spring" id="item">
+                    </div>
+                    <div id="set">
+                        <input type="button" value="查询" id="find">
+                        <input type="button" value="重置" id="reset">
+                    </div>
+                </div>
+                <div id="search-result">
+                    <table id="search-show"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

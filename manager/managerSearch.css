@@ -1,0 +1,49 @@
+#content{    margin: 20px auto;
+    width: 90%;
+    border: 2px double blue;}
+#content #title{    height: 50px;
+    line-height: 50px;
+    border: 1px solid black;
+    position: relative}
+#content #title #user-name{    display: inline-block;
+    position: absolute;
+    right: 180px;}
+#content #title #logoOut{    position: absolute;
+    right: 5px;
+    top: 13px;}
+
+#content #search-content{    margin-top: 20px;
+    height: 800px;
+    border: solid 1px black;}
+
+#content #search-content #search-nav{    float: left;
+    width: 20%;
+    text-align: center;}
+#content #search-content #search-main{    float: right;
+    width: 80%}
+
+#content #search-content #search-main #search-condition .book{
+    margin-bottom: 8px;
+}
+
+#content #search-content #search-main #search-condition .e-book{
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+}
+
+#choice{
+    height: 80px;
+    line-height: 80px;
+}
+
+#choice input{
+    width: 40px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#search-result{
+    border: 1px solid red;
+    height: 400px;
+}

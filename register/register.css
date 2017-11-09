@@ -1,0 +1,15 @@
+#register-content{height: auto;
+    width: 50%;
+    border: 1px solid black;
+    margin: 50px auto;
+    padding: 38px;}
+#register-content .content{    margin-bottom: 10px;}
+#register-content .content .title{    display: inline-block;
+    width: 48%;
+    text-align: left;}
+#register-content .content p{display: inline-block}
+#register-content #agree{
+    text-align: right;
+}
+#register-content .content input{}
+#register-content #submit{text-align: center;font-size: 18px;font-family: Serif;}
